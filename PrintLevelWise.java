@@ -12,6 +12,7 @@ public class PrintLevelWise {
 		q.add(null);
 		while(!q.isEmpty()) {
 			BinaryTreeNode<Integer> currNode = q.remove(0);
+			//System.out.println("1");
 			if(currNode == null) {
 				if(q.isEmpty()) {
 					return;
